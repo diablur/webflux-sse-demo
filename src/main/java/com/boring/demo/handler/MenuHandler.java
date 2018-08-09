@@ -24,7 +24,7 @@ public class MenuHandler {
     }
 
     @PreAuthorize("hasRole('ADMIN')")
-    public Mono<ServerResponse> getMenu(ServerRequest serverRequest) {
+    public Mono<ServerResponse> getMenu(ServerRequest request) {
         Flux<Menu> menu = menuService.findAll();
         return ok().contentType(APPLICATION_JSON_UTF8).body(menu, Menu.class);
     }
