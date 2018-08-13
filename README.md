@@ -1,3 +1,9 @@
-# A Spring Boot WebFlux+Server-Send Events Demo
+# A Spring Boot WebFlux+SSE+WS Demo
 
-enjoy
+WebFlux
+
+Server-Send Events
+
+WebSocket
+
+enjoy!
